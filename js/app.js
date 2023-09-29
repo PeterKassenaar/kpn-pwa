@@ -5,11 +5,11 @@ const container = document.querySelector(".container")
 
 // Our Data. In a real life app this would come from a database.
 const coffees = [
-    {name: "Perspiciatis", image: "images/coffee1.jpg"},
-    {name: "Voluptatem", image: "images/coffee2.jpg"},
-    {name: "Explicabo", image: "images/coffee3.jpg"},
-    {name: "Rchitecto", image: "images/coffee4.jpg"},
-    {name: " Beatae", image: "images/coffee5.jpg"},
+    {name: "Decaf", image: "images/coffee1.jpg"},
+    {name: "Americano", image: "images/coffee2.jpg"},
+    {name: "Cappucino", image: "images/coffee3.jpg"},
+    {name: "Richetto", image: "images/coffee4.jpg"},
+    {name: "Latte", image: "images/coffee5.jpg"},
     {name: " Vitae", image: "images/coffee6.jpg"},
     {name: "Inventore", image: "images/coffee7.jpg"},
     {name: "Veritatis", image: "images/coffee8.jpg"},
