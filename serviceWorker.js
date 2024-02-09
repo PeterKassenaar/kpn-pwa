@@ -25,7 +25,7 @@ const assets = [
 
 // 9c. 'self' is the SW itself. It listens to lifecycle events, and
 // do something in return. In this case the Install event.
-// It is only fired once per service worker. As
+// It is only fired once per service worker.
 self.addEventListener("install", installEvent => {
     // 9d. caching is asychrounous, so we need to wait before continueing
     installEvent.waitUntil(
