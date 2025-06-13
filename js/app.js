@@ -10,7 +10,7 @@ const coffees = [
     {name: "Cappucino", image: "images/coffee3.jpg"},
     {name: "Richetto", image: "images/coffee4.jpg"},
     {name: "Latte", image: "images/coffee5.jpg"},
-    {name: " Vitae", image: "images/coffee6.jpg"},
+    {name: "Vitae", image: "images/coffee6.jpg"},
     {name: "Inventore", image: "images/coffee7.jpg"},
     {name: "Veritatis", image: "images/coffee8.jpg"},
     {name: "Accusantium", image: "images/coffee9.jpg"},
