@@ -31,7 +31,7 @@ const showCoffees = () => {
         ({name, image}) =>
             (output += `
               <div class="card">
-                <img class="card--avatar" src=${image} alt="image from coffee" />
+                <img class="card--avatar" src="${image}" alt="image from coffee" />
                 <h1 class="card--title">${name}</h1>
                 <a class="card--link" href="#">Taste</a>
               </div>
@@ -55,4 +55,6 @@ if ("serviceWorker" in navigator) {
             .then(res => console.log("ALL GOOD: service worker registered"))
             .catch(err => console.log("ERROR: service worker not registered", err))
     })
+}else{
+    // SHOW: Uw browser ondersteunt geen PWA"s!!
 }
